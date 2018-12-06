@@ -24,7 +24,7 @@ input, select { vertical-align: middle;}
 
 .flexall {display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-ms-align-items:center;align-items:center;-webkit-justify-content:center;justify-content:center;}
 
-#g360_logoslider {width:100%;max-width1900px;overflow:hidden;}
+#g360_logoslider {width:100%;max-width:1900px;overflow:hidden;}
 
 #g360_logoslider ul {position:relative;left:0;list-style-type:none;width:auto;}
 
