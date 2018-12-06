@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Logo slider</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  
+<script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+<div class="container">
+  <div class="row">
+    <!--The arrows for sliding through-->
+    <div class="arrows" id="left-arrow"><img src="https://image.flaticon.com/icons/svg/25/25184.svg"/></div>
+    <div class="arrows right-arrow"><img src="https://image.flaticon.com/icons/svg/25/25446.svg"/></div>
+    <!--The logos div contains the sections that are being slided through-->
+    <!--The div is 100.000 px in length-->
+    <div class="logos">
+      <!--Section 1-->
+      <!--Each section has a width of 100vw-->
+      <div class="sections section1"><img src="http://previews.123rf.com/images/kaer123/kaer1231509/kaer123150900362/44889138-Animal-design-template-elements-for-your-application-or-company-or-sport-team-branding-Stock-Vector.jpg"/><img src="http://www.underconsideration.com/brandnew/archives/dell_2016_logo.png"/><img src="https://image.freepik.com/free-vector/abstract-logo-with-colorful-leaves_1025-695.jpg"/><img src="http://www.siggraph.org/sites/default/files/org.flat.logo.400_0.jpg"/></div>
+      <!--Section 2-->
+      <div class="sections section2"><img src="https://1.bp.blogspot.com/-A96zKbROnww/UR4MhZAQcYI/AAAAAAAABBs/JaAlp78y6zU/s1600/Jaguar-Logo+(2).jpg"/><img src="https://s-media-cache-ak0.pinimg.com/564x/a9/b2/9b/a9b29bacdc5a50b1ce94dd4f6c0da4bd.jpg"/><img src="https://4.bp.blogspot.com/-ZtaW1Bi6Ppc/Tixxn7oYveI/AAAAAAAAA8I/isDUognhEJQ/s1600/Daytona_International_Speedway_logo_2010.jpg"/><img src="https://image.freepik.com/free-icon/logistics-delivery-truck-in-movement_318-61800.jpg"/></div>
+      <!--Section 3-->
+      <div class="sections section3"><img src="https://s-media-cache-ak0.pinimg.com/originals/92/32/c4/9232c4f4d75ecfa8ce499978792c4dfb.jpg"/><img src="https://thumbs.dreamstime.com/x/tourism-logo-4687104.jpg"/><img src="http://www.thebusinesslogo.com/logo-design/travel-tourism/travel-tourism-logos-17.gif"/><img src="http://creativeroots.org/wp-content/uploads/2011/07/Zambia-tourism-logo.jpg"/></div>
+    </div>
+    <!--The form that cointains the radio buttons also used for navigation , along with the arrows-->
+    <form class="buttons">
+      <input class="slide-buttons" type="radio" name="slides" id="slide1"/>
+      <label for="slide1"><span></span></label>
+      <input class="slide-buttons" type="radio" name="slides" id="slide2"/>
+      <label for="slide2"><span></span></label>
+      <input class="slide-buttons" type="radio" name="slides" id="slide3"/>
+      <label for="slide3"><span></span></label>
+    </form>
+  </div>
+</div>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
