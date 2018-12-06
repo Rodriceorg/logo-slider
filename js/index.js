@@ -10,7 +10,7 @@
 	var maxEl;
 	var maximumOut = 6;
 	var loops = 0;
-	var timegap = 2000;
+	var timegap = 3330;
 	var waitToRestart = 600; // should match to css transition duration
 	var refreshIntervalId;
 	var screenWidth;
